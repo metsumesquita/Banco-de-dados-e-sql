@@ -43,9 +43,14 @@ DESAFIO 2:
  Realize este ajuste na consulta feita no desafio 1. 
 */
 
-(SELECT column_name FROM table_name ORDER BY column_name ASC LIMIT 1)
-UNION ALL
-(SELECT column_name FROM table_name ORDER BY column_name DESC LIMIT 1);
+SELECT * FROM users 
+ORDER BY id ASC 
+LIMIT 5;
+
+SELECT * FROM users 
+ORDER BY id DESC 
+LIMIT 5;
+
 
 
 /*
